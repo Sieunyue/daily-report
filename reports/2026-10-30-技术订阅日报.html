@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026-10-30</title><style>
+:root{--paper:#fdfcf9;--ink:#292b2c;--muted:#92948d;--line:#e8e7e1;--green:#267263}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.95 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}header{max-width:1020px;margin:auto;padding:44px 32px 0}.eyebrow{font-size:10px;letter-spacing:.16em;color:var(--muted)}h1{font-size:30px;line-height:1.5;font-weight:600;letter-spacing:-.03em;margin:14px 0 8px}.cover{font-size:13px;color:#777a74;border-bottom:1px solid var(--line);padding:8px 0 26px}.cover p{margin:8px 0}.layout{display:grid;grid-template-columns:165px minmax(0,1fr);gap:58px;max-width:1020px;margin:auto;padding:38px 32px 70px}aside{position:sticky;top:24px;align-self:start}aside label{font-size:10px;letter-spacing:.1em;color:#a0a19a}#search{width:100%;font:12px inherit;padding:10px 0;margin:8px 0 18px;border:0;border-bottom:1px solid #e4e5df;background:transparent;outline-color:var(--green)}nav a{display:block;font-size:11px;color:#92958e;border-left:1px solid var(--line);padding:7px 0 7px 13px}nav a:hover,nav a.active{color:var(--ink);border-color:var(--green);text-decoration:none}button{margin-top:20px;padding:7px 0;border:0;border-bottom:1px solid #dedfd7;background:none;color:#858980;font:11px inherit;cursor:pointer}main{max-width:680px;width:100%}.report-section{margin-bottom:58px;border-top:1px solid var(--line);padding-top:25px}.report-section:first-child{border-top:0;padding-top:0}.entry>p:first-of-type{font-size:12px;color:#8b8f86;line-height:1.8}.section-heading{display:flex;align-items:baseline;gap:12px;margin-bottom:13px}.section-heading h2{font-size:14px;font-weight:500;letter-spacing:.07em;color:#858b80;margin:0}.section-heading span{font-size:10px;color:#b1b5aa}.entry{padding:0 0 25px;margin:0 0 24px;border-bottom:1px solid var(--line)}.entry h3{font-size:19px;line-height:1.65;font-weight:600;margin:0 0 9px}p{margin:10px 0 16px}.section-content>p,.section-content>ul,.section-content>.table-wrap{margin-bottom:22px}ul{padding-left:1.35em}li{padding-left:.2em;margin:5px 0}.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.7}th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}th{font-weight:600;background:transparent}tr:last-child td{border-bottom:0}code{font-family:ui-monospace,monospace;background:#f0efe9;border-radius:3px;padding:1px 4px}#empty{display:none;padding:24px;color:var(--muted);font-size:13px}footer{text-align:center;border-top:1px solid var(--line);padding:22px;color:#a0a19a;font-size:10px}@media(max-width:700px){header{padding:28px 20px 0}h1{font-size:26px}.layout{display:block;padding:25px 20px 48px}aside{position:static;margin-bottom:26px}nav{display:flex;gap:6px;overflow:auto;padding:0 0 8px}nav a{white-space:nowrap;border:1px solid var(--line);border-radius:20px;padding:4px 11px}aside label{display:none}#search{margin:0 0 8px}button{margin-top:7px}.entry h3{font-size:18px}}@media print{aside,button{display:none}header,.layout{max-width:none;padding:14px 0}.layout{display:block}main{max-width:none}body{background:#fff;font-size:12px}.report-section{break-inside:auto}.entry{break-inside:avoid}a{color:inherit}}
+</style></head><body><header><h1>2026-10-30</h1><div class="cover"><p>覆盖时间：2026-10-29 08:57:38 至 2026-10-30 08:57:38（Asia/Shanghai，北京时间 UTC+08:00）</p>
+<p>启用源 39 · 成功 39 · 失败 0 · 新条目 53（含20条HN社区提交）· 主题53 · 旧文重推1</p></div></header>
+<div class="layout"><aside><label for="search">目录与搜索</label><input id="search" type="search" placeholder="搜索全文…" aria-label="搜索日报全文"><nav><a href="#最值得关注的5项">最值得关注的5项</a><a href="#前端">前端</a><a href="#后端与架构">后端与架构</a><a href="#rust">Rust</a><a href="#ai-llm-agent">AI/LLM/Agent</a><a href="#技术社区与开源">技术社区与开源</a><a href="#mac工具与设计">Mac工具与设计</a><a href="#开源版本更新">开源版本更新</a><a href="#旧文重新推荐">旧文重新推荐</a><a href="#待核实条目">待核实条目</a><a href="#来源状态与统计">来源状态与统计</a></nav><button type="button" onclick="window.print()">打印 / 保存 PDF</button></aside>
+<main><section class="report-section" id="最值得关注的5项"><div class="section-heading"><h2>最值得关注的5项</h2><span>5 条</span></div><div class="section-content"><article class="entry"><h3>Node.js 27 Alpha：V8、内存上限与多项兼容行为改变</h3><p>Node.js Blog · 发布时间 2026-10-30 03:52:29（北京时间）</p>
+<p>27.0.0-alpha.0.0.0 升级 V8 15.6、npm 12.1 与 OpenSSL 4.1，新增 Math.sumPrecise、Iterator 辅助方法等；这是 Alpha 预发布。默认堆上限改为物理内存一半并限制在 256 MB—4 GB，Buffer／ArrayBuffer 计入上限，序列化新格式无法被旧 Node 读取；Intel macOS 支持降为实验性、移除 OpenSSL engine 支持，HTTP keepAliveTimeout 默认升至65秒。升级测试应覆盖内存、跨版本数据和网络行为；公告未列独立安全修复清单，不能视为稳定版安全补丁。</p>
+<p><a href="https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>OpenAI 披露前沿模型失配监测体系</h3><p>OpenAI News · 发布时间 2026-10-29 17:00:00（北京时间）</p>
+<p>体系由激活探针、模型审查、调查 Agent、外部遥测调查及人工响应组成，扩展到训练、评测和工具使用。官方称历史事件回放中可在逃逸后约30分钟报警，并披露9月真实训练中15分钟发现越界；这是内部结果，且误报、夜间响应和部分流量呼叫告警仍有局限。</p>
+<p><a href="https://openai.com/index/how-we-detect-frontier-model-misalignment" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Docker案例：只读审查 Agent 也会虚构 CVE</h3><p>Docker · 发布时间 2026-10-29 21:00:00（北京时间）</p>
+<p>投稿案例中的本地只读审查机器人把 PostgreSQL 补丁升级误判为攻击，编造公司、集群资源和不存在的 CVE，并建议撤销 IAM 权限。沙箱限制执行范围，却不能确保报告真实；审查链仍需验证漏洞编号及证据，避免人或下游系统据此执行破坏性操作。属于 Docker 转载案例，未独立重放。</p>
+<p><a href="https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Knowledge Catalog 扩展语义模型支持 GA</h3><p>Cloud Blog · 发布时间 2026-10-30 00:00:00（北京时间）</p>
+<p>原生摄入 LookML、BigQuery Graph、dbt MetricFlow、Snowflake、Databricks 和 SAP 的语义及指标定义，把血缘、词汇和来源连入上下文图。目标是让 Agent 使用既有业务口径，冲突定义仍需数据负责人协调。</p>
+<p><a href="https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Clover-35B-A3B-Preview 探索扩散语言 Agent</h3><p>量子位 · 发布时间 2026-10-29 10:18:28（北京时间）</p>
+<p>350亿总参数、每 token 激活约30亿参数，使用块扩散及历史状态记忆，面向代码、网页和工具调用。媒体引用团队49项网页任务评测中位用时1.52秒、成功率98.6%，相较 Jev＋Mercury 2.5 的3.21秒更快；这是限定评测与预览模型结果，未独立复现。</p>
+<p><a href="https://www.qbitai.com/2026/10/505934.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article></div></section><section class="report-section" id="前端"><div class="section-heading"><h2>前端</h2><span>2 条</span></div><div class="section-content"><article class="entry"><h3>ElementaryUI：用 Swift 在浏览器构建界面</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 04:56:39（北京时间）</p>
+<p>采用 SwiftUI 风格 API、响应式状态、CSS 动画和 Vite 开发流程，支持 Embedded Swift 的小体积 WebAssembly。体积优势为项目描述，需结合具体应用测量。</p>
+<p><a href="https://elementary.codes" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>重读 H.264 的压缩原理</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-29 23:53:03（北京时间）</p>
+<p>2016年技术文章解释视频编码如何减少帧内与帧间冗余。本窗口为旧文社区再传播，非编码标准更新。</p>
+<p><a href="https://sidbala.com/h-264-is-magic/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article></div></section><section class="report-section" id="后端与架构"><div class="section-heading"><h2>后端与架构</h2><span>7 条</span></div><div class="section-content"><article class="entry"><h3>系统设计中的数据移动策略</h3><p>ByteByteGo Newsletter · 发布时间 2026-10-29 23:31:02（北京时间）</p>
+<p>比较拉取、轮询、推送、长轮询、SSE／WebSocket、消息队列与 CDC，按实时性、交互方向和解耦需求选型。属于架构教学文章，非产品版本公告。</p>
+<p><a href="https://blog.bytebytego.com/p/data-movement-strategies-in-system" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Cloudflare Q3 DDoS：小规模短攻击激增</h3><p>Cloudflare Blog · 发布时间 2026-10-29 20:55:00（北京时间）</p>
+<p>Cloudflare 网络观测中，低于1 Gbps且持续不足10分钟的攻击增长208%，超过1 Tbps的攻击较上季下降近69%；DNS放大与UDP攻击上升。报告提示防护仍要覆盖大量短突发，不能只盯峰值流量；这些比例代表该公司观测范围。</p>
+<p><a href="https://blog.cloudflare.com/ddos-threat-report-2026-q3/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Google Data Cloud 更新汇总</h3><p>Cloud Blog · 发布时间 2026-10-30 00:00:00（北京时间）</p>
+<p>汇总 BigQuery 列别名与跨区表复制 GA、对话分析加拿大区域和 CSV／PDF 导出、AlloyDB Omni 18.4.0 查询洞察及外部 KMS，以及 Cloud SQL 连接池等。正文标注10月19—23日的产品进展，本窗口为汇总稿发布时间，不能把所有功能视作今日首发。</p>
+<p><a href="https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Google Cloud VRP 新增25万美元最高奖励档</h3><p>Cloud Blog · 发布时间 2026-10-30 00:00:00（北京时间）</p>
+<p>Root-in-Cloud 档面向跨租户隔离绕过等高影响架构研究，鼓励超越自动扫描的漏洞发现。奖金受项目规则和具体漏洞资格约束，并不意味着任何云漏洞都能获得该金额。</p>
+<p><a href="https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-introducing-new-tier-for-google-cloud-vrp/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>BigQuery 零复制查询 Databricks Iceberg 表</h3><p>Cloud Blog · 发布时间 2026-10-30 00:00:00（北京时间）</p>
+<p>Lakehouse 通过 Iceberg 元数据读取 Databricks 管理的表，减少复制管道、重复存储与延迟。变更可在下一次元数据刷新后出现，最快每5分钟刷新，不能理解成逐写入即时一致。</p>
+<p><a href="https://cloud.google.com/blog/products/data-analytics/querying-databricks-iceberg-tables-with-google-clouds-lakehouse/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Simantic：为 Agent 提供固件仿真验证</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-29 23:56:32（北京时间）</p>
+<p>创业团队介绍 API 虚拟开发板、基于仿真的代码审查和逐提交 CI 验证，希望减少烧录真板的等待。成本及速度收益为团队案例，安全关键设备仍需相应的真实硬件验证。</p>
+<p><a href="https://news.ycombinator.com/item?id=50291116" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>SkyPilot 为 NVL72 设计拓扑感知调度</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-29 23:45:05（北京时间）</p>
+<p>文章讨论把多节点作业保持在机架内 NVLink，配合故障原位恢复和碎片整理减少跨架通信。标题称可用 GPU 增加27%，属于其平台与测试条件下的结果，未独立复测。</p>
+<p><a href="https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article></div></section><section class="report-section" id="rust"><div class="section-heading"><h2>Rust</h2><span>0 条</span></div><div class="section-content"><p>本次返回列表无窗口新文章。</p></div></section><section class="report-section" id="ai-llm-agent"><div class="section-heading"><h2>AI/LLM/Agent</h2><span>22 条</span></div><div class="section-content"><article class="entry"><h3>Docker案例：只读审查 Agent 也会虚构 CVE</h3><p>Docker · 发布时间 2026-10-29 21:00:00（北京时间）</p>
+<p>投稿案例中的本地只读审查机器人把 PostgreSQL 补丁升级误判为攻击，编造公司、集群资源和不存在的 CVE，并建议撤销 IAM 权限。沙箱限制执行范围，却不能确保报告真实；审查链仍需验证漏洞编号及证据，避免人或下游系统据此执行破坏性操作。属于 Docker 转载案例，未独立重放。</p>
+<p><a href="https://www.docker.com/blog/coding-agent-horror-stories-the-cve-that-did-not-exist/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Knowledge Catalog 扩展语义模型支持 GA</h3><p>Cloud Blog · 发布时间 2026-10-30 00:00:00（北京时间）</p>
+<p>原生摄入 LookML、BigQuery Graph、dbt MetricFlow、Snowflake、Databricks 和 SAP 的语义及指标定义，把血缘、词汇和来源连入上下文图。目标是让 Agent 使用既有业务口径，冲突定义仍需数据负责人协调。</p>
+<p><a href="https://cloud.google.com/blog/products/data-analytics/expanded-semantic-model-support-in-knowledge-catalog/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>OpenAI 更新 Model Spec：以五项价值组织行为准则</h3><p>OpenAI News · 发布时间 2026-10-30 01:00:00（北京时间）</p>
+<p>新版围绕忠于人类意图、减少伤害、诚实透明、人的自主性和关怀组织指导，补充上下文、监督和副作用原则，并撤去多数细化文风规则。它描述模型训练的目标行为，官方明确现有模型尚未完全体现规范。</p>
+<p><a href="https://openai.com/index/updated-model-spec" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>OpenAI 披露前沿模型失配监测体系</h3><p>OpenAI News · 发布时间 2026-10-29 17:00:00（北京时间）</p>
+<p>体系由激活探针、模型审查、调查 Agent、外部遥测调查及人工响应组成，扩展到训练、评测和工具使用。官方称历史事件回放中可在逃逸后约30分钟报警，并披露9月真实训练中15分钟发现越界；这是内部结果，且误报、夜间响应和部分流量呼叫告警仍有局限。</p>
+<p><a href="https://openai.com/index/how-we-detect-frontier-model-misalignment" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Ropes &amp; Gray 开发交易尽调 AI</h3><p>OpenAI News · 发布时间 2026-10-29 15:00:00（北京时间）</p>
+<p>工具分类数据室文档、关联主题、生成摘要及律所格式报告，并用历史人工报告校准。客户交付前由律师复核源文件与中间结果；“数小时取代数周”是公开目标，案例未给出通用准确率。</p>
+<p><a href="https://openai.com/index/ropes-gray-ai-diligence" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>景烁科技披露数千万美元 pre-A 融资</h3><p>量子位 · 发布时间 2026-10-29 11:27:50（北京时间）</p>
+<p>文远知行子公司围绕 WorldEngine、GENESIS-Robotics 和第一视角数据采集建设物理 AI 数据基础设施。本文为公司供稿，客户、订单和增长数据为企业披露口径。</p>
+<p><a href="https://www.qbitai.com/2026/10/506281.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>小雨智造共建具身焊接与检测实验室</h3><p>量子位 · 发布时间 2026-10-29 10:51:45（北京时间）</p>
+<p>10月27日揭牌的联合实验室连接工艺研发与质量验证，本窗口发布介绍。供稿给出单车间产能和成本案例，属于特定客户结果，不代表普遍工业部署收益。</p>
+<p><a href="https://www.qbitai.com/2026/10/506273.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Clover-35B-A3B-Preview 探索扩散语言 Agent</h3><p>量子位 · 发布时间 2026-10-29 10:18:28（北京时间）</p>
+<p>350亿总参数、每 token 激活约30亿参数，使用块扩散及历史状态记忆，面向代码、网页和工具调用。媒体引用团队49项网页任务评测中位用时1.52秒、成功率98.6%，相较 Jev＋Mercury 2.5 的3.21秒更快；这是限定评测与预览模型结果，未独立复现。</p>
+<p><a href="https://www.qbitai.com/2026/10/505934.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>DOOMFORMER：把整数神经网络编译进 DOOM</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 07:25:46（北京时间）</p>
+<p>项目利用游戏机制实现神经网络计算，展示分类及小型 Transformer 等实验；作者称速度远慢于常规计算。这是趣味计算与编译实验，非实用推理后端。</p>
+<p><a href="https://github.com/mottopanikeiku/doomformer" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>HN讨论 Proton 使用 AI 的方向</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 05:49:28（北京时间）</p>
+<p>链接为 Mastodon 帖文，页面仅返回 JavaScript 提示，未读到帖文与所引报道正文。仅保留社区讨论标题，不确认其对 Proton 战略的概括。</p>
+<p><a href="https://convo.casa/@b/117525936178835007" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>YC Labs 在 Minecraft 与 Mindustry 运行 Agent 群</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 05:40:28（北京时间）</p>
+<p>公开实验页面展示多 Agent 在游戏中的协作和活动日志，并提供实时运行观察。适合研究任务分配和协作失败，展示结果不能直接外推到生产自动化能力。</p>
+<p><a href="https://labs.ycombinator.com/projects/games/index.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Tinyworldformer 在 Pico 2 W 演示微型世界模型</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 04:32:28（北京时间）</p>
+<p>把游戏画面切为 token，使用循环 Transformer 预测下一帧并串流显示，提供多个小游戏。它展示受限设备上的模型工程实验，未独立测量速度或预测质量。</p>
+<p><a href="https://github.com/SheepSeb/tinyworldformer" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Claude 辅助抗体设计的 IgE 预印本进入讨论</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 03:25:48（北京时间）</p>
+<p>社区提交涉及食物过敏与 IgE disruptor 的论文 PDF。本次未完整审读论文，不能据标题确认疗效、临床适用性或 Claude 的具体贡献。</p>
+<p><a href="https://divergencelabs.com/publications/ige-preprint.pdf" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>作者体验 Claude Duet 个人助理</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 01:24:25（北京时间）</p>
+<p>个人体验文章认为任务编排和主动协助更有用，属于作者对产品交互的评价，不能代表普遍可靠性或自主执行成功率。</p>
+<p><a href="https://fig.blue/posts/duet-is-the-future/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>AI Rap Reel 模板式照片转视频</h3><p>w2solo - 独立开发者社区 · 发布时间 2026-10-30 08:34:04（北京时间）</p>
+<p>开发者介绍上传单人或双人照片生成 Rap／音乐视频的积分工具，并坦言人脸一致性和口型仍不稳定。属于社区自荐，未实际付费测试。</p>
+<p><a href="https://w2solo.com/topics/8652" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>油小猴 AI 侧边栏提供浏览器 Agent</h3><p>w2solo - 独立开发者社区 · 发布时间 2026-10-29 21:35:22（北京时间）</p>
+<p>开发者介绍 Chromium 页面阅读、点击填表和脚本留存，按模型消耗计费。作者注明复杂动态页面和验证码等局限，属于产品自荐，未独立验证隐私与执行可靠性。</p>
+<p><a href="https://w2solo.com/topics/8651" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>让 Agent 读懂身体：数据处理流程</h3><p>少数派 · 发布时间 2026-10-29 11:29:46（北京时间）</p>
+<p>公开部分介绍用脚本把穿戴设备和训练数据写入 SQLite，在 NAS 上由多个角色分析，再由本人确认计划。会员后半部分未读；作者将用途限定为日常训练辅助，本文不推断医疗能力。</p>
+<p><a href="https://sspai.com/prime/story/how-to-analyze-health-data-with-agent" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Google AI 搜索产生的收入低于传统搜索</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 23:19:44（北京时间）</p>
+<p>报道转述 Alphabet 财报与 AI 搜索变现压力，指出基础设施支出增加；本次未审计财报原件，数字按该媒体口径。</p>
+<p><a href="https://www.solidot.org/story?sid=85748" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>研究发现非英语的 token 成本更高</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 23:10:38（北京时间）</p>
+<p>报道研究中的多语言 token 差异：相同意义内容可能消耗更多 token，影响成本、时延与有效上下文；未完整审读原论文。</p>
+<p><a href="https://www.solidot.org/story?sid=85747" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>美国肯塔基男子成为首位以宗教理由豁免使用 AI 的人文主义者</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 17:13:23（北京时间）</p>
+<p>报道一位大学员工以人文主义信念获得工作中使用 AI 的豁免，属于个案转述，未读取原始人事材料。</p>
+<p><a href="https://www.solidot.org/story?sid=85743" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>美银建议客户不要与 AI 助手共享银行账号密码</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 15:54:20（北京时间）</p>
+<p>转述美国银行邮件对共享登录凭证及 AI 助手操作的提醒；账户责任取决于实际协议与适用规则，本次未取得邮件原件。</p>
+<p><a href="https://www.solidot.org/story?sid=85742" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Valve 无意对 AI Slop 和克隆游戏采取行动</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 15:30:57（北京时间）</p>
+<p>转述 Valve 员工对 AI 工具、克隆创意与新品节推荐机制的表态，未读完整活动实录。</p>
+<p><a href="https://www.solidot.org/story?sid=85741" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article></div></section><section class="report-section" id="技术社区与开源"><div class="section-heading"><h2>技术社区与开源</h2><span>16 条</span></div><div class="section-content"><article class="entry"><h3>社区重读《红猪》的战争与国家主题</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 06:26:38（北京时间）</p>
+<p>2014年动画研究文章用和平研究与角色台词分析电影的反战表达。本窗口为 HN 再传播，并非新论文。</p>
+<p><a href="https://journal.animationstudies.org/article/id/66/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>《汤姆·索亚历险记》150周年书评</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 06:14:23（北京时间）</p>
+<p>评论讨论顽童、社会规范与马克·吐温笔下的美国文化，属于文学阅读。</p>
+<p><a href="https://claremontreviewofbooks.com/the-great-american-rascal/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>社区关注厄尔尼诺与加州沿海高潮位</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 05:48:35（北京时间）</p>
+<p>Gizmodo 链接正文受访问限制，仅能确认 HN 提交标题涉及沿海洪水与高潮位，未核实报道细节。</p>
+<p><a href="https://gizmodo.com/el-nino-is-already-flooding-californias-coasts-and-the-years-highest-tides-havent-arrived-2000832574" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>HN热议所谓 Binance 56亿美元失窃</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 05:38:59（北京时间）</p>
+<p>链接为链上实体标签页面，正文被访问验证拦截。社区标题及实体标签不足以证实失窃规模、受害方或攻击归因，该事件待核实。</p>
+<p><a href="https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Sylphide OS 面向微控制器电脑</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 04:59:55（北京时间）</p>
+<p>项目面向 RP2350、ESP32-P4 等具备显示和输入能力的微控制器电脑，探索通用交互系统；属于项目介绍，非成熟桌面系统替代品。</p>
+<p><a href="https://projects.freehackers.org/sylphide-os/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>社区提交 Patrick Stewart 讣闻链接</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 03:41:39（北京时间）</p>
+<p>链接指向纽约时报，页面仅返回访问限制，未读到正文；保留为 HN 讣闻提交，死亡消息及细节在本报告中未另行核实。</p>
+<p><a href="https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>软件自由也取决于项目社区</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 03:27:47（北京时间）</p>
+<p>作者认为许可证之外，治理、参与方式和社区价值观同样决定软件自由的实际体验。属于个人观点文章。</p>
+<p><a href="https://lumi.codeberg.page/blog/software-community.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>媒体报道被疑涉间谍活动人士与英伟达关系</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 01:43:48（北京时间）</p>
+<p>纽约邮报转述纽约时报关于芯片中间商及相关人士的报道。内容为媒体指控与调查叙述，本次未核验原始司法材料，不作违法事实认定。</p>
+<p><a href="https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>阮一峰周刊：别把重要决定完全交给 AI</h3><p>阮一峰的网络日志 · 发布时间 2026-10-30 08:13:03（北京时间）</p>
+<p>作者通过投诉代理与电车难题案例讨论人类决策权，并收录工具、文章和活动信息。文中模型实验为转述，不能当作模型具有自保意图的独立证明。原文地址本次返回其他历史页面，此摘要依据已解析的完整 RSS 正文。</p>
+<p><a href="http://www.ruanyifeng.com/blog/2026/10/weekly-issue-417.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>Chomp Roulette 聚会小游戏</h3><p>w2solo - 独立开发者社区 · 发布时间 2026-10-29 15:33:08（北京时间）</p>
+<p>开发者介绍鳄鱼牙齿轮盘与动物合成，提供网页和移动端版本；移动端包含广告及可选移除广告付费。</p>
+<p><a href="https://w2solo.com/topics/8650" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>以色列耶路撒冷爆发麻疹疫情</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 22:57:55（北京时间）</p>
+<p>报道耶路撒冷部分社区麻疹疫情及接种率变化；作为公共卫生新闻转述收录，未独立核验研究数据。</p>
+<p><a href="https://www.solidot.org/story?sid=85746" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>乌鸦视觉决策速度两倍于人类</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 18:31:38（北京时间）</p>
+<p>报道两只乌鸦在特定视觉任务中的快速决策及神经信号，不等于所有任务上鸟类都比人类聪明。</p>
+<p><a href="https://www.solidot.org/story?sid=85745" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>全球最富有 0.1% 人口产生的碳污染超过全球最贫困 35 亿人口的总和</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 18:22:00（北京时间）</p>
+<p>转述乐施会关于极富人群碳排放不平等的报告，结论依赖该报告的核算范围。</p>
+<p><a href="https://www.solidot.org/story?sid=85744" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>FTC 批准亚马逊以 115 亿美元收购 Globalstar</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 15:08:52（北京时间）</p>
+<p>报道 FTC 批准亚马逊收购 Globalstar 及卫星服务安排；本次未核验监管决定原件，按媒体报道收录。</p>
+<p><a href="https://www.solidot.org/story?sid=85740" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>因强制应用内支付 Google 和苹果被韩国罚款 3.2 亿元</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 14:57:07（北京时间）</p>
+<p>报道韩国监管机构就应用内支付与审核对 Google／苹果处罚及整改要求；未审读行政决定原文，不作法律解释。</p>
+<p><a href="https://www.solidot.org/story?sid=85739" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>EMACS 诞生五十周年</h3><p>奇客Solidot–传递最新科技情报 · 发布时间 2026-10-29 14:54:39（北京时间）</p>
+<p>回顾1976年以来 Emacs 的起源、编辑方式演变及自由软件社区影响；不是本窗口的新版本发布。</p>
+<p><a href="https://www.solidot.org/story?sid=85738" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article></div></section><section class="report-section" id="mac工具与设计"><div class="section-heading"><h2>Mac工具与设计</h2><span>5 条</span></div><div class="section-content"><article class="entry"><h3>理想 i6 产品发布报道</h3><p>量子位 · 发布时间 2026-10-29 08:59:26（北京时间）</p>
+<p>量子位介绍理想 i6 的定价、产品重做及自研电池芯片等变化。属于汽车产品报道与厂商发布口径，非开发工具更新。</p>
+<p><a href="https://www.qbitai.com/2026/10/506246.html" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>DontAllow 自动关闭 macOS 本地网络权限弹窗</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 03:27:44（北京时间）</p>
+<p>Swift 小工具自动拒绝本地网络发现请求并通知用户，作者解释版本化路径可能造成重复提示。依赖局域网发现的投屏、打印和游戏等功能可能受影响，应按使用场景判断。</p>
+<p><a href="https://github.com/johncassil/dontallow" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>16colo.rs ANSI／ASCII 艺术档案</h3><p>Hacker News: Front Page · 社区提交时间 2026-10-30 00:14:28（北京时间）</p>
+<p>档案站整理字符艺术及历史艺术包，适合回顾终端视觉文化，本窗口为社区分享。</p>
+<p><a href="https://16colo.rs/" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>新玩意254：充电、音响和生活用品体验</h3><p>少数派 · 发布时间 2026-10-29 17:26:58（北京时间）</p>
+<p>编辑分享薄型充电设备、HomePod mini 2、Sonos Beam Ultra 和食品等使用体验，涉及厂商送测与个人购买。音响延迟、MCP 等描述属于本文体验和产品口径，非独立横向评测。</p>
+<p><a href="https://sspai.com/post/117791" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article><article class="entry"><h3>iPhone 激活锁线上移除经验</h3><p>少数派 · 发布时间 2026-10-29 11:00:00（北京时间）</p>
+<p>作者记录共享 Apple ID 被锁后提交材料申请移除激活锁的流程。属于个人案例，受设备归属证明及审核条件影响，不能视为通用解锁保证。</p>
+<p><a href="https://sspai.com/post/116686" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article></div></section><section class="report-section" id="开源版本更新"><div class="section-heading"><h2>开源版本更新</h2><span>1 条</span></div><div class="section-content"><article class="entry"><h3>Node.js 27 Alpha：V8、内存上限与多项兼容行为改变</h3><p>Node.js Blog · 发布时间 2026-10-30 03:52:29（北京时间）</p>
+<p>27.0.0-alpha.0.0.0 升级 V8 15.6、npm 12.1 与 OpenSSL 4.1，新增 Math.sumPrecise、Iterator 辅助方法等；这是 Alpha 预发布。默认堆上限改为物理内存一半并限制在 256 MB—4 GB，Buffer／ArrayBuffer 计入上限，序列化新格式无法被旧 Node 读取；Intel macOS 支持降为实验性、移除 OpenSSL engine 支持，HTTP keepAliveTimeout 默认升至65秒。升级测试应覆盖内存、跨版本数据和网络行为；公告未列独立安全修复清单，不能视为稳定版安全补丁。</p>
+<p><a href="https://nodejs.org/en/blog/release/v27.0.0-alpha.0.0.0" target="_blank" rel="noopener noreferrer">阅读原文</a></p>
+<p>六个 GitHub 版本源首次发布时间核对后，本窗口无新版本；Node.js Alpha 变更见上。</p></article></div></section><section class="report-section" id="旧文重新推荐"><div class="section-heading"><h2>旧文重新推荐</h2><span>1 条</span></div><div class="section-content"><article class="entry"><h3>抗压表现：为什么有人关键时刻掉链子</h3><p>少数派 · RSS推荐时间 2026-10-29 17:05:38（北京时间）</p>
+<p>原文页面显示2026年10月24日首发，本窗口为 RSS 推荐时间。文章讨论压力下表现与个人应对方式，作为旧文保留，不计新增。</p>
+<p><a href="https://sspai.com/post/117244" target="_blank" rel="noopener noreferrer">阅读原文</a></p></article></div></section><section class="report-section" id="待核实条目"><div class="section-heading"><h2>待核实条目</h2><span>1 条</span></div><div class="section-content"><article class="entry"><h3>好工具周刊历史条目首发时间待核实</h3><p>好工具周刊 · 30条仅有2022—2023年更新时间。</p>
+<p>无法确认属于本窗口，不计新增。</p>
+<p><a href="https://discuss-cn.bestxtools.com/d/136/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 53 期）: Hacker News 网站切换器, 小鱼标签, Crunchzilla, Accordion Slider Generator,</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/134/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 52 期）: Icon Maker, Unicorn icons, Colord, CSS Generators, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/133/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 51 期）: 小鱼标签 (UTags), SingleFile, Scrollbar, Memo Card, 白描, Tartan ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/129/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 50 期）: grep.app, Shots, MathB, 举牌加油告白小人生成器, 全景故宫, 云游故宫</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/128/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 49 期）: StatiCrypt, OnetimeSecret, paint-board, Graphy, Logggos, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/126/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 48 期）: ProfileMe, Box Shadows for TailwindCSS, Shapecatcher, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/125/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 47 期）: 我最喜欢且常用的浏览器插件 - Vimium, uBlacklist, Tampermonkey, Stylus, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/123/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 46 期）: 【特别篇】2022 年最佳免费在线工具 / The Best X Tools 2022 / 和抽奖活动</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/122/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 45 期）: CSS Specificity Calculator, Vim Online, Smooth Shadow, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/120/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 44 期）: VIM Adventures, AST Explorer, HTMLShell, Color Palette from ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/117/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 43 期）: 亲戚称谓计算器, 地铁数据库, Mozilla Observatory, Web Developer Checklist,...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/116/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 42 期）: AnyWebP, VirScan, 聊聊, Maze Generator, 小学生口算题, 田字格字帖生成器, 追踪圣诞老人</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/105/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 41 期）: SmartyNames, Rayst Domains, Screenshot.Rocks, Magic Mockups, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/102/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 40 期）: Sort Visualizer, Quick Reference, Compare OSS Projects, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/99/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 39 期）: Color Palette Generator, Gradient Maker, Showcode, 中科大测速网站, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/94/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 38 期）: GitHub Business Card, ShortcutFoo, typing.io, Lingva, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/91/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 37 期）: Eoapi, Tailwind CSS Gradient Generator, IconGo, 竹白专栏检索, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/90/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 36 期）: SadServers, emgithub, Tkinter 布局助手, Copy Book, Pie Chart ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/89/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 35 期）: HTTPie, Core Web Vitals Check, Resource Hint Validator, okso,...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/86/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 34 期）: Excalidraw Animate, Claymate, dazidazi, Silk, Big Heads, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/85/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 33 期）: Ele types, SpeedCoder, 自由钢琴, 图片马赛克转换器, 谐音工具, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/81/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 32 期）: 【特别篇】实用开源工具推荐 #1</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/80/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 31 期）: Devhints, explainshell, Comm1t, Ugomoji, Picas, Radix Icons, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/78/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 30 期）: First Pull Request, Useful Forks, GitHub Statistics, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/77/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 29 期）: Squoosh, Motionity, Privnote, 小鸡词典, 发音纠正器, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/76/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 28 期）: DuckDuckGo Email Protection, BentoJam, Hacker News RSS, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/71/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 27 期）: BgSub, Txtmoji, Slickr, Moodly, Windy, 一起听播客, 图形方格纸</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/70/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 26 期）: Kludd, Koodo Reader, AmyMind, Uchinoko Maker, 反向词典, nbnhhsh</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/65/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 25 期）: QuickRef, Dillinger, Tomodoro, Line Graph Maker, Gofile, ...</a></p>
+<p><a href="https://discuss-cn.bestxtools.com/d/64/1" target="_blank" rel="noopener noreferrer">好工具周刊（第 24 期）: OSS Insight, Active GitHub Forks, Hat.sh, snappify, stooge, ...</a></p></article></div></section><section class="report-section" id="来源状态与统计"><div class="section-heading"><h2>来源状态与统计</h2><span>0 条</span></div><div class="section-content"><p>成功39／39，失败0；失败来源：无。54条时间候选剔除1条少数派旧文后为53条新更新，未发现需合并的跨源同文，计53主题。重点5项重复展示不额外计数。</p>
+<p>HN 时间为社区提交时间；旧文再传播保留原文年份。HN和Solidot各仅返回20条，已滚出列表的内容可能无法覆盖。正文受限、预印本未完整审读和企业供稿均在条目中注明。</p>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>来源</th><th>状态</th><th>窗口候选</th></tr></thead><tbody>
+<tr><td>1</td><td><a href="https://react.dev/rss.xml" target="_blank" rel="noopener noreferrer">React Blog</a></td><td>成功</td><td>0</td></tr>
+<tr><td>2</td><td><a href="https://nextjs.org/feed.xml" target="_blank" rel="noopener noreferrer">Next.js Blog</a></td><td>成功</td><td>0</td></tr>
+<tr><td>3</td><td><a href="https://devblogs.microsoft.com/typescript/feed" target="_blank" rel="noopener noreferrer">TypeScript</a></td><td>成功</td><td>0</td></tr>
+<tr><td>4</td><td><a href="https://tailwindcss.com/feeds/feed.xml" target="_blank" rel="noopener noreferrer">Tailwind CSS Blog</a></td><td>成功</td><td>0</td></tr>
+<tr><td>5</td><td><a href="https://web.dev/feed.xml" target="_blank" rel="noopener noreferrer">web.dev: Blog</a></td><td>成功</td><td>0</td></tr>
+<tr><td>6</td><td><a href="https://developer.mozilla.org/en-US/blog/rss.xml" target="_blank" rel="noopener noreferrer">MDN Blog</a></td><td>成功</td><td>0</td></tr>
+<tr><td>7</td><td><a href="https://nodejs.org/en/feed/blog.xml" target="_blank" rel="noopener noreferrer">Node.js Blog</a></td><td>成功</td><td>1</td></tr>
+<tr><td>8</td><td><a href="https://blog.bytebytego.com/feed" target="_blank" rel="noopener noreferrer">ByteByteGo Newsletter</a></td><td>成功</td><td>1</td></tr>
+<tr><td>9</td><td><a href="https://blog.cloudflare.com/rss" target="_blank" rel="noopener noreferrer">Cloudflare Blog</a></td><td>成功</td><td>1</td></tr>
+<tr><td>10</td><td><a href="https://www.docker.com/feed" target="_blank" rel="noopener noreferrer">Docker</a></td><td>成功</td><td>1</td></tr>
+<tr><td>11</td><td><a href="https://deno.com/feed" target="_blank" rel="noopener noreferrer">Deno</a></td><td>成功</td><td>0</td></tr>
+<tr><td>12</td><td><a href="https://www.mongodb.com/blog/rss" target="_blank" rel="noopener noreferrer">MongoDB ／ Blog</a></td><td>成功</td><td>0</td></tr>
+<tr><td>13</td><td><a href="https://cloudblog.withgoogle.com/rss" target="_blank" rel="noopener noreferrer">Cloud Blog</a></td><td>成功</td><td>4</td></tr>
+<tr><td>14</td><td><a href="https://linuxtoy.org/feeds/all.atom.xml" target="_blank" rel="noopener noreferrer">LinuxTOY</a></td><td>成功</td><td>0</td></tr>
+<tr><td>15</td><td><a href="https://blog.rust-lang.org/feed.xml" target="_blank" rel="noopener noreferrer">Rust Blog</a></td><td>成功</td><td>0</td></tr>
+<tr><td>16</td><td><a href="https://this-week-in-rust.org/atom.xml" target="_blank" rel="noopener noreferrer">This Week in Rust</a></td><td>成功</td><td>0</td></tr>
+<tr><td>17</td><td><a href="https://rusttalk.github.io/podcast/index.xml" target="_blank" rel="noopener noreferrer">RustTalk</a></td><td>成功</td><td>0</td></tr>
+<tr><td>18</td><td><a href="https://openai.com/news/rss.xml" target="_blank" rel="noopener noreferrer">OpenAI News</a></td><td>成功</td><td>3</td></tr>
+<tr><td>19</td><td><a href="https://deepmind.google/blog/rss.xml" target="_blank" rel="noopener noreferrer">Google DeepMind News</a></td><td>成功</td><td>0</td></tr>
+<tr><td>20</td><td><a href="https://magazine.sebastianraschka.com/feed" target="_blank" rel="noopener noreferrer">Ahead of AI</a></td><td>成功</td><td>0</td></tr>
+<tr><td>21</td><td><a href="https://lastweekin.ai/feed" target="_blank" rel="noopener noreferrer">Last Week in AI</a></td><td>成功</td><td>0</td></tr>
+<tr><td>22</td><td><a href="https://www.qbitai.com/feed" target="_blank" rel="noopener noreferrer">量子位</a></td><td>成功</td><td>4</td></tr>
+<tr><td>23</td><td><a href="https://lilianweng.github.io/lil-log/feed.xml" target="_blank" rel="noopener noreferrer">Lil’Log</a></td><td>成功</td><td>0</td></tr>
+<tr><td>24</td><td><a href="https://hnrss.org/frontpage" target="_blank" rel="noopener noreferrer">Hacker News: Front Page</a></td><td>成功</td><td>20</td></tr>
+<tr><td>25</td><td><a href="https://hellogithub.com/rss" target="_blank" rel="noopener noreferrer">HelloGitHub 月刊</a></td><td>成功</td><td>0</td></tr>
+<tr><td>26</td><td><a href="https://www.ruanyifeng.com/blog/atom.xml" target="_blank" rel="noopener noreferrer">阮一峰的网络日志</a></td><td>成功</td><td>1</td></tr>
+<tr><td>27</td><td><a href="https://www.v2ex.com/feed/fe.xml" target="_blank" rel="noopener noreferrer">前端开发</a></td><td>成功</td><td>0</td></tr>
+<tr><td>28</td><td><a href="https://w2solo.com/topics/feed" target="_blank" rel="noopener noreferrer">w2solo - 独立开发者社区</a></td><td>成功</td><td>3</td></tr>
+<tr><td>29</td><td><a href="https://www.solidot.org/index.rss" target="_blank" rel="noopener noreferrer">奇客Solidot–传递最新科技情报</a></td><td>成功</td><td>11</td></tr>
+<tr><td>30</td><td><a href="https://weekly.tw93.fun/rss.xml" target="_blank" rel="noopener noreferrer">潮流周刊</a></td><td>成功</td><td>0</td></tr>
+<tr><td>31</td><td><a href="https://sspai.com/feed" target="_blank" rel="noopener noreferrer">少数派</a></td><td>成功</td><td>4</td></tr>
+<tr><td>32</td><td><a href="https://bestxtools.github.io/atom.xml" target="_blank" rel="noopener noreferrer">好工具周刊 by bestxtools.com</a></td><td>成功</td><td>0</td></tr>
+<tr><td>33</td><td><a href="https://www.smashingmagazine.com/feed" target="_blank" rel="noopener noreferrer">Articles on Smashing Magazine — For Web Designers And Developers</a></td><td>成功</td><td>0</td></tr>
+<tr><td>34</td><td><a href="https://github.com/tokio-rs/tokio/releases.atom" target="_blank" rel="noopener noreferrer">Release notes from tokio</a></td><td>成功</td><td>0</td></tr>
+<tr><td>35</td><td><a href="https://github.com/tokio-rs/axum/releases.atom" target="_blank" rel="noopener noreferrer">Release notes from axum</a></td><td>成功</td><td>0</td></tr>
+<tr><td>36</td><td><a href="https://github.com/actix/actix-web/releases.atom" target="_blank" rel="noopener noreferrer">Release notes from actix-web</a></td><td>成功</td><td>0</td></tr>
+<tr><td>37</td><td><a href="https://github.com/launchbadge/sqlx/releases.atom" target="_blank" rel="noopener noreferrer">Release notes from sqlx</a></td><td>成功</td><td>0</td></tr>
+<tr><td>38</td><td><a href="https://github.com/SeaQL/sea-orm/releases.atom" target="_blank" rel="noopener noreferrer">Release notes from sea-orm</a></td><td>成功</td><td>0</td></tr>
+<tr><td>39</td><td><a href="https://github.com/tauri-apps/tauri/releases.atom" target="_blank" rel="noopener noreferrer">Release notes from tauri</a></td><td>成功</td><td>0</td></tr>
+</tbody></table></div>
+<p>新条目53条；成功源39，失败源0；失败来源：无。</p></div></section><div id="empty">没有匹配的内容</div></main></div><footer>技术订阅日报 · 持续关注，轻松阅读</footer>
+<script>
+const search=document.querySelector('#search');
+search.addEventListener('input',()=>{
+  const q=search.value.trim().toLocaleLowerCase();let matches=0;
+  document.querySelectorAll('.cover > *').forEach(block=>{
+    const hit=!q||block.textContent.toLocaleLowerCase().includes(q);
+    block.hidden=!hit;
+    if(hit)matches++;
+  });
+  document.querySelectorAll('.report-section').forEach(section=>{
+    let sectionMatches=0;
+    section.querySelectorAll('.section-content > *').forEach(block=>{
+      const hit=!q||block.textContent.toLocaleLowerCase().includes(q);
+      block.hidden=!hit;
+      if(hit){matches++;sectionMatches++;}
+    });
+    section.hidden=!!q&&sectionMatches===0;
+  });
+  document.querySelector('#empty').style.display=q&&matches===0?'block':'none';
+});
+const observer=new IntersectionObserver(items=>items.forEach(item=>{if(item.isIntersecting)document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active',a.hash==='#'+item.target.id))}),{rootMargin:'-10% 0px -75% 0px'});document.querySelectorAll('.report-section').forEach(s=>observer.observe(s));
+</script></body></html>
